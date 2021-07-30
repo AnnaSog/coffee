@@ -1,0 +1,75 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url('../img/bg.jpg') no-repeat 50%/cover;
+    &__wrapper {
+        max-width: 701px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+    nav {
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: auto;
+        background-color: transparent;
+
+    }
+    &__loco {
+        width: 13%;
+    }
+    a {
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        &:hover {
+            color: tan;
+            text-decoration: none;
+        }
+        
+    }
+    &__content {
+        padding-top: 45px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Kurale';
+        font-size: 60px;
+        color: white;
+    }
+    &__title {
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+    }
+    button {
+        margin-top: 20px;
+        padding: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #fff;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 20px;
+        color: white;
+        text-decoration: none;
+        &:hover {
+            background-color:tan;
+        }
+    }
+}

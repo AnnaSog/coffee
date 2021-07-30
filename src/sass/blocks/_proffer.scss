@@ -1,0 +1,19 @@
+.proffer {
+    padding: 9% 0;
+    &__fz16 {
+        max-width: 800px;
+    }
+    &__content {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 285px);
+        grid-template-rows: auto;
+        justify-content: space-between;
+    }
+    &__fz24 {
+        margin-bottom: 10px;
+    }
+}
+.loco {
+    margin: 15px 0;
+}

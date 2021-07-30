@@ -1,0 +1,39 @@
+.shop {
+    padding: 110px 0;
+    background: url('../img/5f1a85a6f263c3d98a88612a_h1-bacground-img-1.jpg') 0% (0% / cover) fixed;
+
+    &__wrapper {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4,  300px);
+        grid-template-rows: 461px;
+        row-gap: 20px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        
+        img {
+            width: 100%;
+        }
+    }
+
+    .btn_shop {
+        display: inline-block;
+        margin: 0 auto;
+        color: white;
+        border: 0;
+        line-height: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 0;
+        padding: 15px 40px;
+        background-color: tan;
+        transition: background-color 500ms ease;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+}

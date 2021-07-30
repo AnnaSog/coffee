@@ -1,0 +1,35 @@
+.title {
+    &_fz42 {
+        font-family: "Kurale", sans-serif;
+        font-size: 42px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    &_fz24 {
+        font-size: 24px;
+        line-height: 30px;
+        font-family: Kurale;
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    &_fz20 {
+        font-size: 20px;
+        font-family: Kurale;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 20px 0 10px 0;
+
+    }
+    &_fz18 {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    &_fz16 {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    &_fz14 {
+        font-size: 14px;
+    }
+}
