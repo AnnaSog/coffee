@@ -31,32 +31,58 @@
 </head>
 
 <body>
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close">
+                <div class="close">&times;</div>
+    
+            </div>
+
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#">ГЛАВНАЯ</a></li>
+                    <li class="menu__link"><a href="#cafe">КАФЕ</a></li>
+                    <li class="menu__link"><a href="#shop">МАГАЗИН</a></li>
+                    <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
+
     <section class="promo">
+     
         <div class="container">
+
+            <div class="hamburger">
+                <span></span>
+                <span class="long"></span>
+                <span></span>
+            </div>
             <div class="promo__wrapper">
             
                 <nav>
                     <a href="#">Главная</a>
-                    <a href="#">О КАФЕ</a>
-                    <a href="#">БЛОГ</a>
-                    <a href="#">МАГАЗИН</a>
-                    <a href="#">КОНТАКТЫ</a>
+                    <a href="#cafe">КАФЕ</a>
+                    <a href="#shop">МАГАЗИН</a>
+                    <a href="#contacts">КОНТАКТЫ</a> 
                 </nav>
                 
         
                 <div class="promo__content">
-                    <img class="promo__loco" src="icons/5fa428e88c2018ba8e300a52_h1-slider-img-1-p-130x130q80.png" alt="loco">
+                    <img class="promo__loco" src="icons/5f1a85a64962de5325c59a0b_h1-slider-img-1.png" alt="loco">
                     <h1>Кaфе-бутик "Баристократ"</h1>
                     <img src="icons/5fa428ed2b024e5f58840142_slider-separator-img-p-130x130q80.png" alt="loco">
                     <p class="title title_fz18 promo__title">Мы готовим кофе больше чем в 30 вариантах, <br> включая самые экзотические сорта.</p>
-                    <button>Отведайтe чашечку</button>
+                    <button class="btn"><a href="#adress">Отведайтe чашечку</a> </button>
                 </div>
             </div>
         </div>
 
     </section>
 
-    <section class="proffer">
+    <section id="proffer" class="proffer">
         <div class="container">
             <div class="proffer__wrapper">
                 <div class="title_fz42 ">НАШЕ ПРЕДЛОЖЕНИЕ</div>
@@ -64,22 +90,22 @@
                 <div class="title_fz16 proffer__fz16">Давно завоевавшие доверие потребителей идеально сбалансированные купажи кофе от всемирно известного производителя Julius Meinl работают на постоянное увеличение количества лояльных покупателей.</div>
                 <div class="proffer__content">
                     <div class="content-item">
-                        <img src="icons/5fa428e8dd4e40926f3d115d_h2-custom-icon-5.png" alt="cup">
+                        <img class="animate__animated animate__fadeInDown" src="icons/5fa428e8dd4e40926f3d115d_h2-custom-icon-5.png" alt="cup">
                         <div class="title_fz24 proffer__fz24">ТИПЫ КОФЕ</div>
                         <div class="title_fz14">Владеем фермой в Колумбии, что позволяет нам ещё больше углубиться в научные исследования и эксперименты.</div>
                     </div>
                     <div class="content-item">
-                        <img src="icons/5fa428e850ecf45328ad742d_h2-custom-icon-6.png" alt="grains">
+                        <img class="animate__animated animate__fadeInDown" src="icons/5fa428e850ecf45328ad742d_h2-custom-icon-6.png" alt="grains">
                         <div class="title_fz24 proffer__fz24">ВИДЫ ЗЕРЕН</div>
                         <div class="title_fz14 ">Жарим на ростерах Тробрат, в создании которых когда-то помогали. Каждую обжарку мы фиксируем в программе.</div>
                     </div>
                     <div class="content-item">
-                        <img src="icons/5fa428e950ecf48319ad742e_h2-custom-icon-7.png" alt="sweets">
+                        <img class="animate__animated animate__fadeInDown" src="icons/5fa428e950ecf48319ad742e_h2-custom-icon-7.png" alt="sweets">
                         <div class="title_fz24 proffer__fz24">СЛАДОСТИ</div>
                         <div class="title_fz14">Готовим свежие сладости по свои собственным рецептам. Всегда свежая выпечка для бодрого дня.</div>
                     </div>
                     <div class="content-item">
-                        <img src="icons/5fa428e940ae001d3f057455_h2-custom-icon-8.png" alt="glass">
+                        <img class="animate__animated animate__fadeInDown" src="icons/5fa428e940ae001d3f057455_h2-custom-icon-8.png" alt="glass">
                         <div class="title_fz24 proffer__fz24">НА ВЫНОС</div>
                         <div class="title_fz14">Скорость приготовления кофе и его качество сильно превосходит конкурентов.</div>
                     </div>
@@ -91,7 +117,7 @@
     <section class="about">
         <div class="container">
             <div class="about__wrapper">
-                <div class="title_fz42"> НАШЕ кафе </div>
+                <div id="cafe" class="title_fz42"> НАШЕ кафе </div>
                 <img class="loco" src="icons/5fa428eddd4e4085c53d1160_title-separator-p-130x130q80.png" alt="loco">
                 <div class="title_fz16"> Место для идеального городского кофе-брейка</div>
                 <div class="about__content">
@@ -103,7 +129,7 @@
                         <button class="btn_cafe"> читать далее...</button> 
 
                         <div class="overlay overlay_cafe">
-                            <div class="modal">
+                            <div class="modal modal_cafe">
                                 <div class="close close_cafe">&times;</div>
                                 
                                 <div class="title title_fz24 about__fz24">ПЕРЕГОВОРЫ</div>
@@ -125,7 +151,7 @@
                         <button class="btn_master-class" > читать далее...</button> 
 
                         <div class="overlay overlay_master-class">
-                            <div class="modal">
+                            <div class="modal modal_master-class">
                                 <div class="close close_master-class">&times;</div>
                                 
                                 <div class="title title_fz24 about__fz24">МАСТЕР-КЛАСС</div>
@@ -138,14 +164,14 @@
                     </div>
 
                     <div class="content-item">
-                        <img class="about__img" src="img/Chava Coffee Co_.jpg" alt="tasting">
+                        <img class="about__img" src="img/5f1a85a567893655d0c95a64_blog-1-img-3.jpg" alt="tasting">
                         <div class="title title_fz24 about__fz24">ДЕГУСТАЦИЯ</div>
                         <div class="title title_fz14">Искусство дегустации - это не просто пить и    наслаждаться кофе. В статье мы расскажем вам о многообразии вкусовых оттенков кофейного напитка. <br>
                         Для того чтобы правильно выбрать кофе , недостаточно знать сорт и место происхождения зерен. Предлагаем ознакомиться с стратегией каппинга.</div>
                         <button class="btn_tasting" > читать далее...</button>
 
                         <div class="overlay overlay_tasting">
-                            <div class="modal">
+                            <div class="modal modal_tasting">
                                 <div class="close close_tasting">&times;</div>
                                 
                                 <div class="title title_fz24 about__fz24">ДЕГУСТАЦИЯ</div>
@@ -167,7 +193,7 @@
         <img src="icons/5f1a85a61ddcdfd960ebabff_h1-single-img-1-250x226.png" alt="loco">
     </div>
 
-    <section class="shop">
+    <section id="shop" class="shop">
         <div class="container">
             <div class="title_fz42 ">НАШ МАГАЗИН</div>
             <img class="loco" src="icons/5fa428eddd4e4085c53d1160_title-separator-p-130x130q80.png" alt="loco">
@@ -176,51 +202,93 @@
                 
                 <div class="shop__item">
                     <img src="img/coffee/1.png" alt="coffee1">
-                    <button class="btn_shop">КУПИТЬ</button>
+                    <button class="btn_shop" data-modal>КУПИТЬ</button>
                     <div class="title title_fz20">QUATEMALA COFFEE. <br> CORRETTO</div>
                     <div class="price">2 500 ₽</div>
                 </div>
                 <div class="shop__item">
                     <img src="img/coffee/2.png" alt="coffee2">
-                    <button class="btn_shop">КУПИТЬ</button>
+                    <button class="btn_shop" data-modal>КУПИТЬ</button>
                     <div class="title title_fz20">EFIOPIA COFFEE.<br> CORRETTO</div>
                     <div class="price">2 500 ₽</div>
                 </div>
                 <div class="shop__item">
                     <img src="IMG/coffee/3.png" alt="coffee3">
-                    <button class="btn_shop">КУПИТЬ</button>
+                    <button class="btn_shop" data-modal>КУПИТЬ</button>
                     <div class="title title_fz20">COLUMBIA COFFEE.<br> CORRETTO</div>
                     <div class="price">2 500 ₽</div>
                 </div>
                 <div class="shop__item">
                     <img src="img/coffee/4.png" alt="coffee4">
-                    <button class="btn_shop">КУПИТЬ</button>
+                    <button class="btn_shop" data-modal>КУПИТЬ</button>
                     <div class="title title_fz20"> KENYA COFFEE.<br> CORRETTO</div>
                     <div class="price">2 500 ₽</div>
                 </div>
                 <div class="shop__item">
                     <img src="img/coffee/arani-4-600x600.png" alt="coffee5">
-                    <button class="btn_shop">КУПИТЬ</button>
+                    <button class="btn_shop" data-modal>КУПИТЬ</button>
                     <div class="title title_fz20">QUATEMALA COFFEE.<br> ARANI</div>
                     <div class="price">3 000 ₽</div>
                 </div>
                 <div class="shop__item">
                     <img src="img/coffee/arani-5.png" alt="coffee6">
-                    <button class="btn_shop">КУПИТЬ</button>
+                    <button class="btn_shop" data-modal>КУПИТЬ</button>
                     <div class="title title_fz20">INDONESIA COFFEE.<br> ARANI</div>
                     <div class="price">3 000 ₽</div>
                 </div>
                 <div class="shop__item">
                     <img src="img/coffee/arani-6.png" alt="coffee7">
-                    <button class="btn_shop">КУПИТЬ</button>
+                    <button class="btn_shop" data-modal>КУПИТЬ</button>
                     <div class="title title_fz20">BRAZIL COFFEE.<br> ARANI</div>
                     <div class="price">3 000 ₽</div>
                 </div>
                 
+                <div class="overlay shop__overlay">
+                    <div class="modal">
+                        <div class="modal__close">&times;</div>
+                        <div class="modal__subtitle">Ваш заказ:</div>
+                        <form class="feed-form feed-form_mt25 shop__form" action="#">
+                            <input name="name" required placeholder="Ваше имя" type="text">
+                            <input name="phone" required placeholder="Ваш телефон">
+                            <input name="email" required placeholder="Ваш E-mail" type="email">
+            
+                            <button class="btn_shop" >Купить</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <div class="icons">
+        <div class="container">
+            <div class="icons__wrapper">
+                <img src="icons/mini/1.png" alt="icons1">
+                <img src="icons/mini/2.png" alt="icons2">
+                <img src="icons/mini/3.png" alt="icons3">
+                <img src="icons/mini/4.png" alt="icons4">
+                <img src="icons/mini/5.png" alt="icons5">
+                <img src="icons/mini/6.png" alt="icons6">
+            </div>
+        </div>
+    </div>
+
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <img class="animate__animated animate__bounceInDown" src="icons/5fa428eb8c2018cd32300a55_logo-light-p-130x130q80.png" alt="icons">
+            <div class="title title_fz16">Мы готовим кофе больше чем в 30 вариантах, включая самые экзотические сорта.
+               <br> География наших поставщиков насчитывает 12 стран.</div>
+            <div id="adress" class="title title_fz24">НАШИ АДРЕСА</div>
+            <div class="title title_fz16">г.Москва, ул. Весенняя, д. 11 <br>
+                г.Санкт-Петербург, ул. Вешних вод, д. 32 </div>
+            <div class="title title_fz24">ПОДПИСКА НА НОВОСТИ</div>
+            <form class="feed-form feed-form_mt25 footer__form" action="#">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+
+                <button class="btn">ОТПРАВИТЬ</button>
+            </form>
+        </div>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 

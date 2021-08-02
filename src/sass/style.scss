@@ -24,8 +24,24 @@
     }
 }
 
+.icons {
+    padding: 3% 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        img {
+            width: 9%;
+        }
+    }
+
+}
+
 @import 'blocks/promo';
+@import 'blocks/menu';
 @import 'blocks/title';
 @import 'blocks/proffer';
 @import 'blocks/about';
 @import 'blocks/shop';
+@import 'blocks/footer';
+@import 'base/media';

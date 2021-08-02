@@ -1,9 +1,12 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url('../img/bg.jpg') no-repeat 50%/cover;
+    background: url('../img/IMG_2566.png') no-repeat 50%/cover;
+    .hamburger {
+        display: none;
+    }
     &__wrapper {
-        max-width: 701px;
+        max-width: 801px;
         display: flex;
         align-items: center;
         position: absolute;
@@ -26,26 +29,33 @@
 
     }
     &__loco {
-        width: 13%;
+        width: 23%;
     }
+
+    
     a {
         color: #fff;
         font-size: 16px;
         text-transform: uppercase;
+        
         &:hover {
             color: tan;
             text-decoration: none;
         }
         
     }
+
+
     &__content {
         padding-top: 45px;
+        padding-left: 41px;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
 
     h1 {
+        margin: 19px 0;
         text-align: center;
         font-family: 'Kurale';
         font-size: 60px;
@@ -56,20 +66,28 @@
         margin-top: 20px;
         text-align: center;
     }
-    button {
-        margin-top: 20px;
-        padding: 20px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #fff;
-        background-color: transparent;
-        cursor: pointer;
-        font-size: 18px;
-        line-height: 20px;
-        color: white;
-        text-decoration: none;
+
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+    &:hover {
+        background-color:tan;
+    }
+    a {
         &:hover {
-            background-color:tan;
+            color: black;;
+            text-decoration: none;
         }
     }
 }

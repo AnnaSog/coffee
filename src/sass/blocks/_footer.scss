@@ -1,0 +1,26 @@
+.footer {
+    padding: 3% 0;
+    background: url(../img/bg/5f1a85a614ceba3644fef1cf_footer-top-img-1.jpg) center (center / cover) no-repeat;
+    
+    .title  {
+        color: #fff;
+        margin-top: 20px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: 20px auto;
+        input {
+            margin-top: 10px;
+            height: 50px;
+            background-color: transparent;
+            border: 1px solid #cccccc;
+            text-align: center;
+        }
+    }
+    button {
+        max-width: 148px;
+        margin: 30px auto;
+    }
+}
