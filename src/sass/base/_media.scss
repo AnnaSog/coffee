@@ -83,11 +83,8 @@
         max-width: 570px;
     }
 
-    
-
-
     .promo {
-        background: url(../img/bg_copy.jpg) 63% 73%;
+        background: url(../img/bg_copy-min.jpg) 63% 73%;
         &__wrapper {
             max-width: 467px;
         }
@@ -162,12 +159,16 @@
 
     }
     .promo {
-        background: url('../img/EWDG7CwXsAUIi9T.jpg') 50%;
+        background: url('../img/bg_copy-min.jpg') 50%;
         &__wrapper {
-            max-width: 260px;;
+            max-width: 260px;
         }
         &__loco {
             width: 26%;
+        }
+        &__content {
+            padding-top: 11px;
+            padding-left: 27px;
         }
         .hamburger {
             display: block;
@@ -275,6 +276,7 @@
     .shop {
         .modal {
             width: 80%;
+            padding-left: 30px;
             &__close {
                 position: absolute;
                 top: -30px;
@@ -283,20 +285,9 @@
             }
             .feed-form {
                 width: 196px;
-               input {
-                height: 48px;
-                font-size: 12px;
-               }
             }
             
         }
-    }
-
-    .icons {
-        img {
-            width: 16%;
-        }
-        
     }
 
     .footer {

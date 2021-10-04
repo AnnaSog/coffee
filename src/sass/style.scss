@@ -16,7 +16,7 @@
 
 .block_img {
     padding: 70px 0;
-    background: url('../img/kofe-napitok-kruzhka-kniga-nastroenie.jpg') center (-27% / cover) fixed ;
+    background: url('../img/bg-min.jpg') 50% (50% / cover) fixed;
     background-repeat: no-repeat;
     img {
         display: block;
@@ -30,9 +30,29 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        img {
-            width: 9%;
+        div {
+            height: 10vh;
+            flex: 0 16.666666666666668%;
         }
+        .icons1 {
+            background: url('../icons/mini/1.png') 50% (50% / contain) no-repeat;
+        }
+        .icons2 {
+            background: url('../icons/mini/2.png') 50% (50% / contain) no-repeat;
+        }
+        .icons3 {
+            background: url('../icons/mini/3.png') 50% (50% / contain) no-repeat;
+        }
+        .icons4 {
+            background: url('../icons/mini/4.png') 50% (50% / contain) no-repeat;
+        }
+        .icons5 {
+            background: url('../icons/mini/5.png') 50% (50% / contain) no-repeat;
+        }
+        .icons6 {
+            background: url('../icons/mini/6.png') 50% (50% / contain) no-repeat;
+        }
+    
     }
 
 }
